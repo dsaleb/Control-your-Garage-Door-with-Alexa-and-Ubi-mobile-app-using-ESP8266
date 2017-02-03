@@ -1,24 +1,17 @@
-#Control your Garage Door with Alexa and Ubi mobile app using ESP8266
+#Arduino Esp8266 Alexa Wemo switch emulator
 
+This project is completly based on the [forked repo](https://github.com/kakopappa/arduino-esp8266-alexa-multiple-wemo-switch), all the hard work was done by kakopappa. I just reworked their code to make it consumable as a Arduino library so it could be easily pulled into other projects.
 
-This project will use the wemos d1 mini and 2 channel relay to control a 2 car garage using Alexa and Ubi mobile app.
+This library enables your esp8266 to simulate a Belkin Wemo switch. It can be discovered as a device by your Amazon Echo/Dot on the Smart home section. It supports calling the emulated device a custom name e.g. "Alexa, turn off test lights", where test lights is the custom name
 
-Parts you need:
+The library supports emulating up to 14 switches using 1 ESP8266 chip.
 
-WeMos D1-mini ($6.00)
+## Installing
 
-2 Channel mechanical Relay ($5.60)
+The downloaded code can be included as a new library into the IDE selecting the menu:
 
-How to use:
+     Sketch / include Library / Add .Zip library
 
-1. Download the code
-2. Open file in the Arduino editor.
-3. Change the WI-FI settings.
-4. Rename/Define callbacks (ex. right garage door) Note: don't use Cap letters.
-5. Flash and Enjoy
+Restart the Arduino IDE and follow the examples located at
 
-
-
-This project is based on the [forked repo](https://github.com/kakopappa/arduino-esp8266-alexa-multiple-wemo-switch), This library enables your esp8266 to simulate a Belkin Wemo switch. It can be discovered as a device by your Amazon Echo/Dot on the Smart home section. 
-
-
+     File -> Examples -> Esp8266AlexaWemoEmulator
