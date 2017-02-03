@@ -7,7 +7,7 @@ Parts you need:
 
 WeMos D1-mini ($5.00)
 
-2 Channel mechanical Relay ($5.00)
+2 Channel mechanical Relay ($5.00) Note: Do not use a Solid State Relay SSR, it won't work. 
 
 How to use:
 
