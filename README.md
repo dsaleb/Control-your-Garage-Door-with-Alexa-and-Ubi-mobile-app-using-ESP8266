@@ -5,9 +5,9 @@ This project will use the wemos d1 mini and 2 channel relay to control a 2 car g
 
 Parts you need:
 
-WeMos D1-mini ($5.00)
+[WeMos D1-mini](http://www.ebay.com/sch/i.html?_odkw=wemos+d1+mini&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR4.TRC1.A0.H0.TRS0&_nkw=wemos+d1+mini&_sacat=0) ($4.00)
 
-2 Channel mechanical Relay ($5.00) Note: Do not use a Solid State Relay SSR, it won't work. 
+[2 Channel mechanical Relay](http://www.ebay.com/itm/2-Channel-DC-5V-Relay-NO-NC-With-Optocoupler-Module-Isolation-For-Arduino-/301108325591?hash=item461b746cd7:g:ArsAAOSw-jhUH7Em) ($3.00) Note: Do not use a Solid State Relay SSR, it won't work. 
 
 How to use:
 
